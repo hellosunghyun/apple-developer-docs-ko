@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOC_ROOT = ROOT / "apple-developer-docs-md"
 SITE_ROOT = ROOT / "site"
 ASSET_DIR = SITE_ROOT / "assets"
-ASSET_VERSION = "20260511-no-apple-logo"
+ASSET_VERSION = "20260511-external-link-mark"
 
 SECTION_ORDER = ["Core Motion", "SensorKit", "Create ML"]
 SECTION_SLUGS = {
@@ -1040,6 +1040,21 @@ a:hover { color: var(--blue-hover); text-decoration: underline; }
   line-height: 1.25;
 }
 
+.topic-link[target="_blank"] strong::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 6px;
+  color: var(--blue);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  transform: translateY(-1px);
+}
+
+.topic-link[target="_blank"]:hover strong::after {
+  color: var(--blue-hover);
+}
+
 .topic-link span {
   display: block;
   margin-top: 3px;
@@ -1187,6 +1202,21 @@ a:hover { color: var(--blue-hover); text-decoration: underline; }
 .markdown-body h4 {
   margin: 28px 0 10px;
   font-size: 18px;
+}
+
+.markdown-body a[target="_blank"]::after {
+  content: "↗";
+  display: inline-block;
+  margin-left: 0.18em;
+  color: var(--blue);
+  font-size: 0.78em;
+  line-height: 1;
+  text-decoration: none;
+  transform: translateY(-0.08em);
+}
+
+.markdown-body a[target="_blank"]:hover::after {
+  color: var(--blue-hover);
 }
 
 .markdown-body p,
