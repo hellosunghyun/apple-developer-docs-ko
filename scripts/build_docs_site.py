@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOC_ROOT = ROOT / "apple-developer-docs-md"
 SITE_ROOT = ROOT / "site"
 ASSET_DIR = SITE_ROOT / "assets"
-ASSET_VERSION = "20260511-external-link-mark"
+ASSET_VERSION = "20260511-code-external-link-mark"
 
 SECTION_ORDER = ["Core Motion", "SensorKit", "Create ML"]
 SECTION_SLUGS = {
@@ -1216,6 +1216,21 @@ a:hover { color: var(--blue-hover); text-decoration: underline; }
 }
 
 .markdown-body a[target="_blank"]:hover::after {
+  color: var(--blue-hover);
+}
+
+.markdown-body a[target="_blank"]:has(> code)::after {
+  content: none;
+}
+
+.markdown-body a[target="_blank"] > code::after {
+  content: " ↗";
+  color: var(--blue);
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.markdown-body a[target="_blank"]:hover > code::after {
   color: var(--blue-hover);
 }
 
