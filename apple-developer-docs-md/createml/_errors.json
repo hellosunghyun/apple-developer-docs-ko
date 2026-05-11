@@ -1,0 +1,40 @@
+{
+  "errors": [
+    {
+      "id": "019e151e-5841-7392-8810-96cd9b562aa4",
+      "timestamp": "2026-05-11T03:47:28.525Z",
+      "url": "https://developer.apple.com/documentation/createml/mlsoundclassifier/modelparameters-swift.struct/featureextractortype/vggish(revision:)",
+      "code": "SCRAPE_TIMEOUT",
+      "error": "The scrape operation timed out before completing. This happens when a page takes too long to load, render, or process. Possible causes: (1) The website is slow or unresponsive, (2) The page has heavy JavaScript that takes time to execute, (3) The page is very large or has many resources to load, (4) Network latency is high. To fix this, try increasing the timeout parameter in your scrape request, or if using actions, ensure your selectors are correct and the page is ready before actions are executed."
+    },
+    {
+      "id": "019e1524-1066-70cc-a0dc-84cb8861df86",
+      "timestamp": "2026-05-11T03:47:19.374Z",
+      "url": "https://developer.apple.com/documentation/createml/mlsoundclassifier/modelparameters-swift.struct/validationdata/none",
+      "code": "SCRAPE_TIMEOUT",
+      "error": "The scrape operation timed out before completing. This happens when a page takes too long to load, render, or process. Possible causes: (1) The website is slow or unresponsive, (2) The page has heavy JavaScript that takes time to execute, (3) The page is very large or has many resources to load, (4) Network latency is high. To fix this, try increasing the timeout parameter in your scrape request, or if using actions, ensure your selectors are correct and the page is ready before actions are executed."
+    },
+    {
+      "id": "019e151e-583c-7619-b05e-0d95b020b670",
+      "timestamp": "2026-05-11T03:47:23.844Z",
+      "url": "https://developer.apple.com/documentation/createml/mlsoundclassifier/modelparameters-swift.struct/featureextractortype/audiofeatureprint(type:revision:)",
+      "code": "SCRAPE_TIMEOUT",
+      "error": "The scrape operation timed out before completing. This happens when a page takes too long to load, render, or process. Possible causes: (1) The website is slow or unresponsive, (2) The page has heavy JavaScript that takes time to execute, (3) The page is very large or has many resources to load, (4) Network latency is high. To fix this, try increasing the timeout parameter in your scrape request, or if using actions, ensure your selectors are correct and the page is ready before actions are executed."
+    },
+    {
+      "id": "019e151e-583d-761c-8b82-f36c8ae96dbd",
+      "timestamp": "2026-05-11T03:47:27.196Z",
+      "url": "https://developer.apple.com/documentation/createml/mlsoundclassifier/modelparameters-swift.struct/featureprinttype",
+      "code": "SCRAPE_TIMEOUT",
+      "error": "The scrape operation timed out before completing. This happens when a page takes too long to load, render, or process. Possible causes: (1) The website is slow or unresponsive, (2) The page has heavy JavaScript that takes time to execute, (3) The page is very large or has many resources to load, (4) Network latency is high. To fix this, try increasing the timeout parameter in your scrape request, or if using actions, ensure your selectors are correct and the page is ready before actions are executed."
+    },
+    {
+      "id": "019e151e-5839-751a-9076-6e664fb867af",
+      "timestamp": "2026-05-11T03:47:22.411Z",
+      "url": "https://developer.apple.com/documentation/createml/mlsoundclassifier/modelparameters-swift.struct/classifiertype",
+      "code": "SCRAPE_TIMEOUT",
+      "error": "The scrape operation timed out before completing. This happens when a page takes too long to load, render, or process. Possible causes: (1) The website is slow or unresponsive, (2) The page has heavy JavaScript that takes time to execute, (3) The page is very large or has many resources to load, (4) Network latency is high. To fix this, try increasing the timeout parameter in your scrape request, or if using actions, ensure your selectors are correct and the page is ready before actions are executed."
+    }
+  ],
+  "robotsBlocked": []
+}

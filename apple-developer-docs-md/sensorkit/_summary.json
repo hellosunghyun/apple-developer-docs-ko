@@ -1,0 +1,12 @@
+{
+  "section": "SensorKit",
+  "root_url": "https://developer.apple.com/documentation/sensorkit",
+  "crawl_id": "019e1508-15cd-74cd-b29b-07699200ed3f",
+  "status": "completed",
+  "total": 283,
+  "completed": 283,
+  "saved_markdown_files": 283,
+  "started_at": "2026-05-11T03:15:13.321835+00:00",
+  "updated_at": "2026-05-11T03:31:00.194056+00:00",
+  "reexported_at": "2026-05-11T03:53:40.069572+00:00"
+}
