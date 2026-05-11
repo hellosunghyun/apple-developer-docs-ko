@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DOC_ROOT = ROOT / "apple-developer-docs-md"
 SITE_ROOT = ROOT / "site"
 ASSET_DIR = SITE_ROOT / "assets"
-ASSET_VERSION = "20260511-nav-cleanup"
+ASSET_VERSION = "20260511-no-apple-logo"
 
 SECTION_ORDER = ["Core Motion", "SensorKit", "Create ML"]
 SECTION_SLUGS = {
@@ -503,7 +503,6 @@ def shell(
 <body class="{body_class}">
   <header class="globalbar">
     <a class="brand" href="{home_href}" aria-label="Home">
-      <span class="brand-mark">Apple</span>
       <span class="brand-title">Developer</span>
     </a>
     <nav class="topnav" aria-label="Top navigation">
@@ -765,20 +764,6 @@ a:hover { color: var(--blue-hover); text-decoration: underline; }
 }
 
 .brand:hover { color: var(--text); text-decoration: none; }
-.brand-mark {
-  width: 14px;
-  overflow: visible;
-  font-size: 0;
-  text-overflow: clip;
-}
-
-.brand-mark::before {
-  content: "\F8FF";
-  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1;
-}
-
 .brand-title { overflow: visible; text-overflow: clip; }
 
 .topnav {
